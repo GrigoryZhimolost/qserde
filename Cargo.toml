@@ -1,0 +1,10 @@
+[package]
+name = "qserde"
+version = "0.1.0"
+edition = "2024"
+authors = ["grigory zhimolost'"]
+
+[dependencies]
+
+ml-kem = "0.2.1"
+rand_core = "0.6.4"
