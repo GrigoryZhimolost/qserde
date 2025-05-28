@@ -6,7 +6,7 @@ Current version of ml-kem crate used in this crate **does not support rand crate
 Use _generate_keypair{512/768/1024}_ to generate keypair, encapsulation key's functions *to_bytes*, *from_bytes*, *encapsulate* to do encapsulation, serialize and deserialize it. And *decapsulate* func of DecapsulationKey to decapsulate ciphertexts
 Here's usage example below:
 
-` rust
+``` rust
 use qserde::*;
 
 let mut rng = rand::thread_rng();
@@ -27,4 +27,4 @@ let (ciphertext, shared_secret) = ek.encapsulate(&mut rng).unwrap();
 let another_shared_secret = dk.decapsulate(&ciphertext).unwrap();
 
 assert_eq!(shared_secret, another_shared_secret);
-`
+```
