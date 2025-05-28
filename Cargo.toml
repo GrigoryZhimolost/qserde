@@ -1,12 +1,12 @@
 [package]
 name = "qserde"
-version = "0.1.0"
+version = "0.2.28"
 edition = "2024"
 authors = ["grigory zhimolost'"]
 description = "a non-std rust library for serializing/deserializing ml-kem(aka kyber) public key, encapsulating/decapsulating 256 bit keys and so on"
 license = "GPL-3.0"
 repository = "https://github.com/GrigoryZhimolost/qserde"
-keywords = ["no-std", "post quantum", "pqc", "ml-kem", "serde"]
+keywords = ["no-std", "post-quantum", "pqc", "ml-kem", "serde"]
 exclude = ["tests/"]
 
 [dependencies]
