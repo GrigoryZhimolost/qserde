@@ -3,6 +3,8 @@ name = "qserde"
 version = "0.1.0"
 edition = "2024"
 authors = ["grigory zhimolost'"]
+description = "a non-std rust library for serializing/deserializing ml-kem(aka kyber) public key, encapsulating/decapsulating 256 bit keys and so on"
+license = "gnu gplv3"
 
 [dependencies]
 
